@@ -2,14 +2,13 @@
   "name": "rn-module",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/src/index.js",
-  "typings": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "yarn tsc"
   },
   "files": [
-    "dist",
-    "!example"
+    "dist"
   ],
   "keywords": [],
   "author": "",

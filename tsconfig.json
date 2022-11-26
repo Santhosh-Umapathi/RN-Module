@@ -5,12 +5,12 @@
     "noEmit": false,
     "jsx": "react-native",
     "types": ["react-native"],
-    "outDir": "dist/src",
+    "outDir": "dist",
     "declaration": true,
     "esModuleInterop": true,
     "baseUrl": ".",
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "node_modules/**/*"]
+  "exclude": ["node_modules"]
 }
