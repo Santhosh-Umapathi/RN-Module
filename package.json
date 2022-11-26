@@ -1,0 +1,20 @@
+{
+  "name": "rn-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": "*",
+    "react-native-ui-lib": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-native": "^0.70.7",
+    "react-native-ui-lib": "^6.24.0"
+  }
+}
