@@ -7,6 +7,10 @@
   "scripts": {
     "build": "yarn tsc"
   },
+  "files": [
+    "dist",
+    "!example"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
