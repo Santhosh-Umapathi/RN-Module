@@ -6239,6 +6239,10 @@ rimraf@~2.6.2:
   dependencies:
     glob "^7.1.3"
 
+rn-module@../rn-module-1.0.0.tgz:
+  version "1.0.0"
+  resolved "../rn-module-1.0.0.tgz#3ab3f47aa93a247440f1c59f128dfe24f7c87bf5"
+
 rsvp@^4.8.4:
   version "4.8.5"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
