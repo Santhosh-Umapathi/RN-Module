@@ -6,7 +6,7 @@
   "typings": "dist/index.d.ts",
   "scripts": {
     "build": "yarn tsc",
-    "pack": "yarn pack"
+    "pkg": "npm pack"
   },
   "files": [
     "src",
