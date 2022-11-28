@@ -1,22 +1,28 @@
 {
-  "name": "example",
-  "version": "0.0.1",
+  "name": "rn-module",
+  "version": "1.0.0",
+  "description": "Custom React Native Module",
   "private": true,
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
   "scripts": {
+    "build": "yarn tsc",
+    "pkg": "npm pack",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
-  "dependencies": {
-    "react": "18.1.0",
-    "react-native": "0.70.6",
-    "react-native-gesture-handler": "^2.8.0",
-    "react-native-reanimated": "^2.13.0",
-    "react-native-ui-lib": "^6.24.0",
-    "rn-module": "/Users/santhosh-umapathi/Desktop/Playground/RN-Module/rn-module-1.0.0.tgz"
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
   },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
@@ -33,7 +39,12 @@
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "0.72.3",
     "react-test-renderer": "18.1.0",
-    "typescript": "^4.8.3"
+    "typescript": "^4.8.3",
+    "react-native-gesture-handler": "^2.8.0",
+    "react-native-reanimated": "^2.13.0",
+    "react-native-ui-lib": "^6.24.0",
+    "react": "18.1.0",
+    "react-native": "0.70.6"
   },
   "jest": {
     "preset": "react-native",

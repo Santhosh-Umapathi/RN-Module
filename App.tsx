@@ -1,9 +1,8 @@
 import React from 'react';
 import {SafeAreaView, Text} from 'react-native';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
-import {Button} from 'rn-module/dist';
-console.log('🚀 --- Button', Button);
-import {IUser, TCheck} from 'rn-module/dist/typings';
+import {Button} from './lib';
+import {IUser, TCheck} from './lib/typings';
 
 const App = () => {
   const user: IUser = {firstName: 'test', lastName: 'test', id: 'tesr'};
@@ -16,7 +15,7 @@ const App = () => {
       <SafeAreaView
         style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
         <Text>Example App for RN-Module</Text>
-        {/* <Button /> */}
+        <Button />
       </SafeAreaView>
     </GestureHandlerRootView>
   );
