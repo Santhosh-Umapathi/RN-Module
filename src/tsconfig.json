@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "jsx": "react-native",
+    "types": ["react-native"],
+    "outDir": "dist",
+    "declaration": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
